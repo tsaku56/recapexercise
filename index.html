@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabby Time</title>
+    <style>
+      body {
+        background-color: rgb(124, 159, 206);
+      }
+      .class1lab {
+        color: wheat;
+        background-color: grey;
+      }
+    </style>
+    <script>
+      let user = prompt("Hi my name is Ross, what is your name?");
+
+      console.log("Hi " + user);
+
+      let time = prompt("Hi " + user + ", what hour is it? (0 - 23)");
+
+      console.log(time);
+
+      if (time < 12) {
+        message = "Good Morning " + user + ", don't touch my cookies.";
+      } else if (time <= 18) {
+        message = "You're up late " + user + ", don't touch my cookies.";
+      } else if (time <= 24) {
+        message = "Go to bed I suppose " + user + ", don't touch my cookies.";
+      } else {
+        message = "Nice try " + user;
+      }
+      console.log(message);
+    </script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Title title</h1>
+      </div>
+    </header>
+    <main>
+      <div>
+        <h1 class="class1lab">Class 1 Lab</h1>
+        <p style="color: blueviolet; background-color: azure">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam
+          numquam nisi ducimus consequuntur autem qui sapiente ullam earum,
+          repellat et.
+        </p>
+        <p style="color: indianred; background-color: aquamarine">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+          mollitia modi a commodi numquam accusamus quod tempora ab animi
+          quibusdam?
+        </p>
+        <p style="color: teal; background-color: gold">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+          voluptatem non repellat expedita magnam fuga blanditiis dolores totam
+          dolore dolorem!
+        </p>
+        <p style="color: coral; background-color: powderblue">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores,
+          pariatur!
+        </p>
+      </div>
+    </main>
+    <footer>©2023</footer>
+  </body>
+</html>
