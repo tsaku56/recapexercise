@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tabby Time</title>
+    <link rel="icon" href="https://em-content.zobj.net/thumbs/120/google/350/robot_1f916.png" type="image/icon type" />
     <style>
       body {
         background-color: rgb(124, 159, 206);
@@ -14,22 +15,6 @@
         background-color: grey;
       }
     </style>
-    <script>
-      let myUser = prompt("What is your name?");
-      console.log("Hi " + myUser);
-
-      let myAnimal = prompt("Hi " + myUser + ", what is your favourite animal?");
-      console.log(myAnimal);
-
-      let myPlace = prompt("Okay " + myUser + ", where was your most treasured holiday?");
-      console.log(myPlace)
-
-      let myColor = prompt("Finally " + myUser + ", tell me your favourite colour!");
-      console.log(myColor);
-
-      let mySummary = alert(myUser + ", did you know in " + myPlace + " there is millions of colorful " + myColor + " " + myAnimal + "'s");
-      console.log(mySummary);
-    </script>
   </head>
   <body>
     <header>
@@ -40,22 +25,30 @@
     <main>
       <div>
         <h1 class="class1lab">Class 1 Lab</h1>
-        <p style="color: blueviolet; background-color: azure">
-          Whats your name?
-        </p>
-        <p style="color: indianred; background-color: aquamarine">
-          What is your favourite animal?
-        </p>
-        <p style="color: teal; background-color: gold">
-          What is your most treasured holiday?
-        </p>
-        <p style="color: coral; background-color: powderblue">
-          Tell me your favourite colour!
-        </p>
+        <p style="color: #ffffff; background-color: #575757">Whats your name?</p>
+        <p style="color: #850080; background-color: #e8e8e8">What is your favourite animal?</p>
+        <p style="color: #022c22; background-color: #00e9fa">What is your most treasured holiday?</p>
+        <p style="color: #d68800; background-color: #000000">Tell me your favourite colour!</p>
       </div>
     </main>
-    <footer>
-      ©2023
-    </footer>
+    <footer>©2023</footer>
+    <script>
+      let myUser = prompt("What is your name?");
+      console.log("Hi " + myUser);
+
+      let myAnimal = prompt("Hi " + myUser + ", what is your favourite animal?");
+      console.log(myAnimal);
+
+      let myPlace = prompt("Okay " + myUser + ", where was your most treasured holiday?");
+      console.log(myPlace);
+
+      let myColor = prompt("Finally " + myUser + ", tell me your favourite colour!");
+      console.log(myColor);
+
+      let mySummary = alert(
+        myUser + ", did you know in " + myPlace + " there is millions of colorful " + myColor + " " + myAnimal + "'s"
+      );
+      console.log(mySummary);
+    </script>
   </body>
 </html>
