@@ -15,24 +15,20 @@
       }
     </style>
     <script>
-      let user = prompt("Hi my name is Ross, what is your name?");
+      let myUser = prompt("What is your name?");
+      console.log("Hi " + myUser);
 
-      console.log("Hi " + user);
+      let myAnimal = prompt("Hi " + myUser + ", what is your favourite animal?");
+      console.log(myAnimal);
 
-      let time = prompt("Hi " + user + ", what hour is it? (0 - 23)");
+      let myPlace = prompt("Okay " + myUser + ", where was your most treasured holiday?");
+      console.log(myPlace)
 
-      console.log(time);
+      let myColor = prompt("Finally " + myUser + ", tell me your favourite colour!");
+      console.log(myColor);
 
-      if (time < 12) {
-        message = "Good Morning " + user + ", don't touch my cookies.";
-      } else if (time <= 18) {
-        message = "You're up late " + user + ", don't touch my cookies.";
-      } else if (time <= 24) {
-        message = "Go to bed I suppose " + user + ", don't touch my cookies.";
-      } else {
-        message = "Nice try " + user;
-      }
-      console.log(message);
+      let mySummary = alert(myUser + ", did you know in " + myPlace + " there is millions of colorful " + myColor + " " + myAnimal + "'s");
+      console.log(mySummary);
     </script>
   </head>
   <body>
@@ -45,26 +41,21 @@
       <div>
         <h1 class="class1lab">Class 1 Lab</h1>
         <p style="color: blueviolet; background-color: azure">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam
-          numquam nisi ducimus consequuntur autem qui sapiente ullam earum,
-          repellat et.
+          Whats your name?
         </p>
         <p style="color: indianred; background-color: aquamarine">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-          mollitia modi a commodi numquam accusamus quod tempora ab animi
-          quibusdam?
+          What is your favourite animal?
         </p>
         <p style="color: teal; background-color: gold">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-          voluptatem non repellat expedita magnam fuga blanditiis dolores totam
-          dolore dolorem!
+          What is your most treasured holiday?
         </p>
         <p style="color: coral; background-color: powderblue">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores,
-          pariatur!
+          Tell me your favourite colour!
         </p>
       </div>
     </main>
-    <footer>©2023</footer>
+    <footer>
+      ©2023
+    </footer>
   </body>
 </html>
